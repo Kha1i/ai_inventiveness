@@ -2,7 +2,7 @@
     {
         "task": "Prepare a report on project progress",
         "category": "work",
-        "prediction": "work"
+        "prediction": "**work**"
     },
     {
         "task": "Fix the leaky faucet in the bathroom",
@@ -17,7 +17,7 @@
     {
         "task": "Plan a family movie night",
         "category": "general",
-        "prediction": "home"
+        "prediction": "general"
     },
     {
         "task": "Reply to client emails and schedule a follow-up meeting",
@@ -27,7 +27,7 @@
     {
         "task": "Clean out the garage and sort items for donation",
         "category": "home",
-        "prediction": "home"
+        "prediction": "errands"
     },
     {
         "task": "Pick up a prescription from the pharmacy and drop off a package at the post office",
@@ -37,32 +37,32 @@
     {
         "task": "Brainstorm ideas for a friend's birthday party",
         "category": "general",
-        "prediction": "general"
+        "prediction": "Here are some ideas to get your creative juices flowing:\n\n**Theme Ideas:**\n\n1. **Retro Night**: Decorate with vintage items, play music from 80s/90s, and have guests dress up in their favorite retro attire.\n2. **Outdoor Adventure**: Plan a camping trip (even if it's just a backyard campout!), go on a hike, or set up a park picnic.\n3. **Masquerade Ball**: Add an air of mystery with masquerades, decorations, and music from different cultures.\n4. **Foodie Frenzy**: Host a potluck dinner party with international cuisine or a dessert-only spread.\n5. **Backyard BBQ**: Classic summer vibes, complete with grilled eats, lawn games, and refreshing treats.\n\n**Game & Activity Ideas:**\n\n1. **Scavenger Hunt**: Create a list of items to find around the party area, with clues to solve along the way.\n2. **Karaoke Party**: Rent a machine or use a smartphone app for an epic singing competition.\n3. **Outdoor Games**: Set up a series of lawn games (e.g., cornhole, giant Jenga) and prizes for the winners.\n4. **Arts & Crafts Station**: Provide supplies for DIY decorations, jewelry-making, or face painting.\n5. **Time Capsule** : Have guests write notes to their friend-to-be (you!), seal them up, and open on a future date.\n\n**Food & Drink Ideas:**\n\n1. **Dessert-only Party**: Focus on sweet treats like cupcakes, brownies, ice cream sundaes, or even just popcorn!\n2. **Food Truck Fiesta**: Invite food vendors for an eclectic twist on party snacks.\n3. **Wine and Cheese Night**: Set up a charcuterie board and pair wines with expertly selected cheeses and accompaniments.\n4. **Classic Party Menu**: Think burgers, hot dogs, BBQ favorites, or Italian-style pasta dishes.\n\n**Miscellaneous Ideas:**\n\n1. **Photobooth**: Create a DIY or rented photobooth for candid moments to snap and cherish later.\n2. **Custom Gift T-Shirts**: Have guests design and print their own party tees.\n3. **Birthday Wishes Jar**: Collect heartfelt letters and words of wisdom for the friend-to-be.\n4. **Personalized Cake**: Order a specialty cake designed with your friend's name or favorite colors.\n\n**One-of-a-Kind Ideas:**\n\n1. **Pajama Party**: Host a sleep-in birthday party where guests come dressed in their coziest PJs!\n2. **Private Dinner for 10+ Tacos**: Plan an upscale taco taste-testing menu with expert pairing options.\n3. **Vintage Video Arcade Night**: Rent classic video game consoles and set up retro arcade stations.\n4. **Under the Stars Stargazing Party**: Create a nighttime experience with telescopes, constellation maps, or stargazing apps.\n\nPick one that feels like your friend's style or try mixing and matching to create something truly unique!"
     },
     {
         "task": "Update the company's website content and troubleshoot layout issues",
         "category": "work",
-        "prediction": "work"
+        "prediction": "general"
     },
     {
         "task": "Assemble new furniture and rearrange the living room",
         "category": "home",
-        "prediction": "home"
+        "prediction": "work"
     },
     {
         "task": "Return a defective product to the store and exchange it",
         "category": "errands",
-        "prediction": "errands"
+        "prediction": "general"
     },
     {
         "task": "Read a book on self-improvement or learn a new skill",
         "category": "general",
-        "prediction": "general"
+        "prediction": "work"
     },
     {
         "task": "Prepare a presentation and conduct a team briefing on project milestones",
         "category": "work",
-        "prediction": "work"
+        "prediction": "**Agenda for Team Briefing**\n\n1. Project Overview\n2. Current Progress Update\n3. Upcoming Milestones (Project Deliverables)\n4. Challenges and Risks Discussion\n5. Next Steps and Action Items\n\n---\n\n**Presentation: Project Status and Upcoming Milestones**\n\nGood morning/afternoon, team.\n\nAs we've been working diligently on our project, I'd like to take some time today to update everyone on the current status, upcoming milestones, and next steps.\n\n**I. Current Progress Update**\n\n- **Development Phase**: Our development teams have successfully completed 75% of the feature development tasks. We're seeing great progress in this area.\n- **Testing Phase**: Testing is ongoing with the latest round yielding positive results for our project's core components. Issues uncovered through testing are being addressed promptly.\n\n**II. Upcoming Milestones**\n\nWe have several key milestones ahead to ensure our project delivers according to plan:\n\n1. **Mid Quarter Review (MQR)**: Scheduled for next week, this MQR will mark the official midpoint before the final stretch of development and preparation for deployment.\n2. **Functionality Completion Deadline**: By the end of this quarter, all developmental stages are expected to be completed. This is a crucial step toward our project's full integration into the company infrastructure.\n3. **Deployment Ready State (DRS)**: If we're on track with our current progress and successfully complete all outstanding tasks, DRS should be achieved by quarter-end.\n\n---\n\n**Discussion**\n\nLet's dive deeper into what these milestones mean for us:\n\n1. **MQR Next Week:**\n    - We need to have all the project documents, including the development timeline and contingency plans, finalized.\n    - Review the current status of each development team and discuss any critical challenges that may impact timelines.\n\n2. **Functionality Completion Deadline (End Q3):**\n\n    - Ensure comprehensive testing will be performed on 90% or more of the targeted user experience features by this date.\n    - Confirm all the documentation required for hand-off to operations teams is in place, detailing installation, support requirements, & troubleshooting processes.\n\n**III. Challenges and Risks Discussion**\n\nLet's take a moment now to discuss any potential pitfalls that could impact our forward progress:\n\n1. Critical task timelines being missed by more than 24 hours will be cause for concern.\n2. Issues with team turnover or changes in the stakeholder perspective that might influence project direction.\n\n**IV. Next Steps and Action Items**\n\n- **Action:** Identify, resolve any issue related to timeline discrepancies in development tasks immediately and provide updates to relevant stakeholders by next Monday.\n- **Responsibility:** Report any significant obstacles encountered with project progress through designated channels for project meetings scheduled on every second Friday of each month.\n\n---\n\n**Closing Notes: Update & Collaboration**\n\nAs we approach these upcoming milestones, it's crucial that every team member understands their roles, contributes positively, and collaborates effectively across teams. Your collaboration will make all the difference in ensuring our project meets its schedule and deliverables in every aspect."
     },
     {
         "task": "Organize a surprise anniversary celebration at home",
@@ -77,17 +77,17 @@
     {
         "task": "Research recipes and cook an elaborate meal for a special occasion",
         "category": "general",
-        "prediction": "home"
+        "prediction": "general"
     },
     {
         "task": "Audit departmental processes and propose efficiency improvements",
         "category": "work",
-        "prediction": "work"
+        "prediction": "Based on the provided tasks, here's a sample audit of departmental processes and proposed efficiency improvements:\n\n**Audit Findings:**\n\n* The tasks are mostly related to routine activities, such as preparing budget reports (work), fixing home appliances (home), running errands (errands), or engaging in personal activities (general).\n* However, some tasks seem to have overlap between categories. For example, writing a blog post can be considered \"work,\" but it may also involve personal creativity or communication.\n* There are instances of tasks that don't fall into any category, which might indicate areas for further classification and improvement.\n\n**Proposed Efficiency Improvements:**\n\n1. **Task categorization:** Create clear and actionable labels to group similar tasks together, such as:\n\t* \"work\" (professional duties and responsibilities)\n\t* \"home\" (personal care, household maintenance, and family-related tasks)\n\t* \"errands\" (running daily business tasks, shopping for groceries, etc.)\n\t* \"general\" (leisure activities, relaxation, or miscellaneous activities)\n2. **Sub-tasks identification:** Identify subtasks within a primary task to better prioritize and manage workflows.\n3. **Standardize templates:** Develop standardized templates for commonly used tasks (e.g., budget reports) to speed up preparation and reduce time-consuming iterations.\n4. **Resource allocation:** Analyze resource usage and allocate them effectively, balancing workload with individual capacities.\n5. **Prioritize task list management:** Implement an actionable prioritization system to ensure essential tasks are addressed on time while minimizing distractions from non-essential activities.\n6. **Automation possibilities:** Explore available automation tools or technologies that could streamline processes, such as accounting software for automated expense tracking.\n\nBy considering these efficiency improvements, departments can optimize internal workflows and better serve the growing demands placed upon them. How should we prioritize and implement these changes to improve operational performance while still meeting individual needs?"
     },
     {
         "task": "Plant a garden and repair the backyard fence",
         "category": "home",
-        "prediction": "home"
+        "prediction": "work"
     },
     {
         "task": "Refuel the car, check tire pressure, and buy snacks for a road trip",
@@ -97,6 +97,6 @@
     {
         "task": "Attend a community workshop or participate in a hobby class",
         "category": "general",
-        "prediction": "general"
+        "prediction": "errands"
     }
 ]

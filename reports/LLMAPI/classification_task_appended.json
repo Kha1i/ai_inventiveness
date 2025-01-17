@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "description": "The robotic arm frequently overshoots its position when assembling small components, reducing accuracy.",
+        "Ollama_Response": "problem"
+    },
+    {
+        "id": "2",
+        "description": "The cooling system in the high-speed engine fails to prevent overheating during prolonged operation.",
+        "Ollama_Response": "problem"
+    },
+    {
+        "id": "3",
+        "description": "The drone\u2019s camera stabilizer produces blurry images in windy conditions, impacting video quality.",
+        "Ollama_Response": "problem"
+    },
+    {
+        "id": "4",
+        "description": "The packaging machine jams when handling biodegradable materials, causing frequent production stops.",
+        "Ollama_Response": "problem"
+    },
+    {
+        "id": "5",
+        "description": "The conveyor belt motor overheats when running at maximum speed for extended periods.",
+        "Ollama_Response": "problem"
+    },
+    {
+        "id": "6",
+        "description": "The hydraulic press achieves consistent force distribution across the entire surface of the workpiece.",
+        "Ollama_Response": "not problem"
+    },
+    {
+        "id": "7",
+        "description": "The electric motor operates with 95% energy efficiency, reducing operational costs significantly.",
+        "Ollama_Response": "not problem"
+    },
+    {
+        "id": "8",
+        "description": "The automated welding system ensures precision by adapting to minor variations in component alignment.",
+        "Ollama_Response": "not problem"
+    },
+    {
+        "id": "9",
+        "description": "The HVAC system maintains a stable temperature range, improving energy efficiency in extreme weather.",
+        "Ollama_Response": "not problem"
+    },
+    {
+        "id": "10",
+        "description": "The 3D printer produces high-resolution parts with complex geometries without requiring post-processing.",
+        "Ollama_Response": "not problem"
+    }
+]

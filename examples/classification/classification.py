@@ -98,7 +98,7 @@ def main():
 
     # Classify tasks
     for task in tqdm(tasks, desc="Classifying tasks"):
-        label = get_response_from_openai(task["task"])
+        label = get_response_from_ollama(task["task"])
         task["prediction"] = label
 
     # Save the results to a JSON file
