@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 
 from service.openai_service import OpenAIService
-
+from service.task_label import TaskLabelPrompt
 
 load_dotenv()
 script_dir = os.path.dirname(os.path.abspath(__file__))

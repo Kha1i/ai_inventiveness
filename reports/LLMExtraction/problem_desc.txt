@@ -1,0 +1,5 @@
+A car trailer manufacturer aims to increase the payload capacity of their flatbed trailers. 
+By using high-strength steel in the frame construction, they have successfully increased the maximum load by 20%. 
+The new design, while more capable, has resulted in a 15% increase in overall trailer weight. 
+This additional weight reduces fuel efficiency for the towing vehicle and may require drivers 
+to upgrade to more powerful tow vehicles for maximum capacity loads.
