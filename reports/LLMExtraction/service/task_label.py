@@ -15,19 +15,19 @@ class TaskLabelPrompt:
     [Classify Task into Predefined Label]
 
     <prompt_objective>  
-    You are technical expert, spocialized in technical contradiction defining. 
+    You are technical scientific expert, spocialized in extracting information from scientific papers 
     </prompt_objective>  
 
     <prompt_rules>  
-    - ALWAYS list all effects in the desription
-    - ALWAYS list positive and negative effects one for each line with "-" at beggining.
-    - NEVER list effect without "-" at beggining
-    - NEVER list action with "-" at beggining
-    - ALWAYS list action wihtout spliting lines.
-    - ONLY use numbers when possible.  
-    - NEVER use text description if it can be described numericly.
-    - Be as precise and specific as possible when describing problems.
-    - Remain consice as much as possible while remaining precision of description.
+    - ALWAYS list only title of publication as is in provided text
+    - NEVER change title compared to one in provided paper
+    - ALWAYS seperate keywords with "; "
+    - NEVER list multiple keywords without "; " between them  
+    - ALWAYS list at least 3 keywords
+    - NEVER list more than 8 keywords
+    - ALWAYS list "Energy efficiency" "Pneumatic" "Vehicles" "Braking" "Suspension" "Fuel Consumption" as keywords when it matches the paper text
+    - NEVER list other similar keywords when one of "Energy efficiency" "Pneumatic" "Vehicles" "Braking" "Suspension" "Fuel Consumption" would also fit
+    - ALWAYS Remain consice as much as possible when creasting summary of paper.
     </prompt_rules>  
 
     <prompt_examples>  
@@ -36,11 +36,21 @@ class TaskLabelPrompt:
     The new design, while more capable, has resulted in a 15% increase in overall trailer weight.
     This additional weight reduces fuel efficiency for the towing vehicle and may require drivers
     to upgrade to more powerful tow vehicles for maximum capacity loads.  
-    AI: Action: increasing payload capacity of flatbed trailers by using jhigh-strength steel
-    Positive Effect:  - 20% increase in maximum load
-    Negative Effect:  - 15% increase in overall trailer weight
-                      - Reduced fuel efficiency
-                      - Might require to upgrade to more powerful tow vehicle
+    AI: Action: increasing payload capacity of flatbed trailers by using high-strength steel
+    Positive Effect:  20% increase in maximum load
+    
+    Negative Effect:  15% increase in overall trailer weight;
+                    Reduced fuel efficiency;
+                    Might require to upgrade to more powerful tow vehicle;
+    
+    USER: Pneumatic suspension needs quiceker deaeration times. Manufacturer implements less restrictive silencer. 
+    Thanks to that time to deaerate decreases 10%. This however made noise increase 20% and created possible issues with ingress protection.
+    AI: Action: increasing payload capacity of flatbed trailers by using high-strength steel
+    Positive Effect:  10% deacrease in deaeration time;
+    
+    Negative Effect:  20% increase in noise;
+                      Possibly worse ingress protection;
+
 
     </prompt_examples> 
     """
@@ -54,6 +64,7 @@ class TaskLabelPrompt:
         Pydantic model for the answers.
         """
         label: str
+        
 
     # -----------------------------------------------------------------------------
     # Methods

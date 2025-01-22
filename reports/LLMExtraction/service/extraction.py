@@ -20,7 +20,7 @@ task_label_prompt = TaskLabelPrompt()
 
 class TechnicalContradiction(BaseModel):
     """
-    Technical Contradiction extraction model
+    Reaserch paper extraction model
     """
     action: str = Field(description="The action that causes the contradiction")
     positive_effect: str = Field(description="The positive effect of the action")
