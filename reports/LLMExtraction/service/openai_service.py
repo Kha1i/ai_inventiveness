@@ -6,7 +6,6 @@ from typing import Dict, List
 from openai import OpenAI
 import instructor
 from pydantic import BaseModel
-
 class OpenAIService:
     """
     OpenAI Service

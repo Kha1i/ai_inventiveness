@@ -15,46 +15,33 @@ class TaskLabelPrompt:
     [Classify Task into Predefined Label]
 
     <prompt_objective>  
-    Classify the provided task into one of the predefined labels: "work", "home", "errands", or "general"  
+    You are technical expert, spocialized in technical contradiction defining. 
     </prompt_objective>  
 
     <prompt_rules>  
-    - ONLY use the labels: "work," "home," "errands," and "general."  
-    - NEVER create new labels under any circumstances.  
-    - Assign "general" if the task does not clearly match any of the other three labels.  
-    - The output must consist of ONLY the label, with no additional text or formatting.  
+    - ALWAYS list all effects in the desription
+    - ALWAYS list positive and negative effects one for each line with "-" at beggining.
+    - NEVER list effect without "-" at beggining
+    - NEVER list action with "-" at beggining
+    - ALWAYS list action wihtout spliting lines.
+    - ONLY use numbers when possible.  
+    - NEVER use text description if it can be described numericly.
+    - Be as precise and specific as possible when describing problems.
+    - Remain consice as much as possible while remaining precision of description.
     </prompt_rules>  
 
     <prompt_examples>  
-    USER: Prepare the quarterly budget report.  
-    AI: work  
+    USER: A car trailer manufacturer aims to increase the payload capacity of their flatbed trailers. 
+    By using high-strength steel in the frame construction, they have successfully increased the maximum load by 20%.
+    The new design, while more capable, has resulted in a 15% increase in overall trailer weight.
+    This additional weight reduces fuel efficiency for the towing vehicle and may require drivers
+    to upgrade to more powerful tow vehicles for maximum capacity loads.  
+    AI: Action: increasing payload capacity of flatbed trailers by using jhigh-strength steel
+    Positive Effect:  - 20% increase in maximum load
+    Negative Effect:  - 15% increase in overall trailer weight
+                      - Reduced fuel efficiency
+                      - Might require to upgrade to more powerful tow vehicle
 
-    USER: Fix the leaky faucet in the kitchen.  
-    AI: home  
-
-    USER: Pick up groceries from the store.  
-    AI: errands  
-
-    USER: Walk the dog.  
-    AI: home  
-
-    USER: Write a blog post for the company website.  
-    AI: work  
-
-    USER: Watch a movie.  
-    AI: none  
-
-    USER: Attend the parent-teacher conference.  
-    AI: home  
-
-    USER: Schedule an interview with a candidate.  
-    AI: work  
-
-    USER: Take the car for an oil change.  
-    AI: errands  
-
-    USER: Relax and do nothing.  
-    AI: none  
     </prompt_examples> 
     """
 
