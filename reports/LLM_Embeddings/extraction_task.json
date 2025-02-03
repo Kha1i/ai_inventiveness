@@ -1,0 +1,57 @@
+[
+    {
+        "id": "contra-00",
+        "description": "A car trailer manufacturer aims to increase the payload capacity of their flatbed trailers. By using high-strength steel in the frame construction, they have successfully increased the maximum load by 20%. The new design, while more capable, has resulted in a 15% increase in overall trailer weight. This additional weight reduces fuel efficiency for the towing vehicle and may require drivers to upgrade to more powerful tow vehicles for maximum capacity loads.",
+        "label": 1
+    },
+    {
+        "id": "contra-01",
+        "description": "Engineers developing a screw conveyor for transporting abrasive materials have implemented a hardened steel auger to improve wear resistance. The new design extends the operational lifespan of the conveyor by 40%. The hardened steel auger, being significantly heavier than its predecessor, requires more powerful motors to maintain the same rotational speed. This modification has led to a 25% increase in energy consumption during operation.",
+        "label": 1
+    },
+    {
+        "id": "contra-02",
+        "description": "A biogas compression system for a wastewater treatment plant has been redesigned to achieve higher throughput. The new compressor increases gas flow rate by 30%, allowing for more efficient energy production. The increased compression ratio generates more heat during operation, necessitating an expanded cooling system. This addition has increased the overall footprint of the compression unit by 20%, complicating its integration into existing plant layouts.",
+        "label": 1
+    },
+    {
+        "id": "contra-03",
+        "description": "A cyclone separator for industrial dust collection has been modified to improve fine particle capture efficiency. By reducing the diameter of the cyclone body, engineers have increased the centrifugal force acting on particles, improving separation of particles down to 2.5 microns by 35%. The narrower design has resulted in a 25% increase in pressure drop across the separator, requiring more powerful fans and increasing energy consumption for the dust collection system.",
+        "label": 1
+    },
+    {
+        "id": "contra-04",
+        "description": "Structural engineers working on a lightweight bridge design have incorporated carbon fiber reinforced polymers (CFRP) into critical load-bearing elements. This modification has reduced the overall weight of the bridge structure by 30% while maintaining its load-carrying capacity. The use of CFRP materials has increased the material costs of the project by 45% and requires specialized equipment and expertise for installation and maintenance.",
+        "label": 1
+    },
+    {
+        "id": "contra-05",
+        "description": "A hydraulic drive system for heavy machinery has been upgraded to provide higher operating pressures, increasing the maximum force output by 25%. This enhancement allows the machinery to handle heavier loads and operate in more demanding conditions. The higher pressure system requires more robust seals and fittings, which have reduced the overall reliability of the hydraulic system, increasing maintenance frequency by 20% and potential downtime.",
+        "label": 1
+    },
+    {
+        "id": "contra-06",
+        "description": "Robotics engineers have developed a new manipulator arm with an extended reach, increasing its workspace volume by 40%. The longer arm allows for greater flexibility in production line layouts and can access hard-to-reach areas in assembly processes. The extended reach has decreased the arm's precision at full extension, with positioning accuracy reduced by 0.5 mm at the maximum radius, potentially affecting the quality of high-precision tasks.",
+        "label": 1
+    },
+    {
+        "id": "contra-07",
+        "description": "A modular gas container system for LNG transport has been redesigned to increase its storage capacity. By optimizing the internal structure, engineers have increased the usable volume by 15% without changing the external dimensions. The new design incorporates thinner walls to maximize internal space, reducing the container's thermal insulation properties. This modification has increased the boil-off rate of the stored LNG by 8%, requiring more frequent refilling or additional cooling systems during extended storage periods.",
+        "label": 1
+    },
+    {
+        "id": "contra-08",
+        "description": "A car trailer manufacturer has introduced a new lightweight composite material for the trailer bed, reducing the overall weight by 25%. This weight reduction improves fuel efficiency and increases the payload capacity. The composite material, while durable, is more susceptible to UV degradation than traditional steel, reducing the expected lifespan of the trailer bed by 20% without additional protective coatings.",
+        "label": 1
+    },
+    {
+        "id": "contra-09",
+        "description": "Engineers have redesigned a screw conveyor for the food industry, incorporating a polished stainless steel auger to improve hygiene and reduce product adhesion. The new design has decreased cleaning time between batches by 40% and reduced product waste by 15%. The smoother surface of the auger has led to a 10% decrease in conveying efficiency, requiring longer operation times to transport the same volume of material.",
+        "label": 1
+    },
+    {
+        "id": "contra-10",
+        "description": "A biogas compression system has been modified to operate at lower temperatures, reducing the risk of gas ignition and improving safety. The new system cools the gas before compression, lowering the operating temperature by 30\u00b0C. This modification has increased the moisture content in the compressed gas by 25%, necessitating the addition of a dehumidification system that increases energy consumption and maintenance requirements.",
+        "label": 1
+    }
+]
